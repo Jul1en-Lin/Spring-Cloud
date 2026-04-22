@@ -2,12 +2,12 @@ package com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.loadbalancer.annotation.LoadBalancerClients;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-
+@EnableEurekaServer
 @SpringBootApplication
-public class OrderApplication {
+public class EurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(OrderApplication.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 }
