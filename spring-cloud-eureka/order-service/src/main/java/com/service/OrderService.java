@@ -49,14 +49,23 @@ public class OrderService {
 
     private AtomicInteger count = new AtomicInteger(0);
 
-    // 手动实现负载均衡（轮询）
+//    // 手动实现负载均衡（轮询）
+//    public OrderInfo selectOrderById(Integer orderId) {
+//        OrderInfo orderInfo = orderMapper.selectOrderById(orderId);
+//        // 对服务器数量取余，获取当前索引，达到轮询的效果
+//        // 先取值进行取余，然后再完成自增逻辑
+//        int index = count.getAndIncrement() % instances.size();
+//        String uri = instances.get(index).getUri().toString();
+//        String url = uri + "/product/" + orderInfo.getProductId();
+//        orderInfo.setProductInfo(restTemplate.getForObject(url, ProductInfo.class));
+//        return orderInfo;
+//    }
+
+    // 使用 Eureka 负载均衡
     public OrderInfo selectOrderById(Integer orderId) {
         OrderInfo orderInfo = orderMapper.selectOrderById(orderId);
-        // 对服务器数量取余，获取当前索引，达到轮询的效果
-        // 先取值进行取余，然后再完成自增逻辑
-        int index = count.getAndIncrement() % instances.size();
-        String uri = instances.get(index).getUri().toString();
-        String url = uri + "/product/" + orderInfo.getProductId();
+        String url = "http://product-service/product/"+orderInfo.getProductId();
+        // restTemplate 会对 url 进行解析，根据 Eureka 中的服务列表，自动选择一个服务实例
         orderInfo.setProductInfo(restTemplate.getForObject(url, ProductInfo.class));
         return orderInfo;
     }
