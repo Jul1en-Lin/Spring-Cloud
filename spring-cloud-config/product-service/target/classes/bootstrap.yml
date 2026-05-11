@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: product-service
+#多环境配置
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    config:
+      uri: http://127.0.0.1:7071  # 指定配置服务端的地址
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  cloud:
+    config:
+      uri: http://127.0.0.1:7071  # 指定配置服务端的地址
