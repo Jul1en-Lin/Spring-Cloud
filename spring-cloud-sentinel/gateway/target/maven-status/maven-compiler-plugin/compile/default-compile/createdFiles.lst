@@ -1,0 +1,5 @@
+com/bite/gateway/CustomGatewayFilterFactory.class
+com/bite/gateway/CustomGlobalFilter.class
+com/bite/gateway/CustomConfig.class
+com/bite/gateway/GatewayApplication.class
+com/bite/gateway/CustomGatewayFilterFactory$1.class

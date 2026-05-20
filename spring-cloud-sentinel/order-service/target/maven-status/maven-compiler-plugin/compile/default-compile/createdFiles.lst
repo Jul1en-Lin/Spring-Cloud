@@ -1,0 +1,7 @@
+com/bite/order/service/OrderService.class
+com/bite/order/mapper/OrderMapper.class
+com/bite/order/controller/OrderController.class
+com/bite/order/config/BeanConfig.class
+com/bite/order/controller/FeignController.class
+com/bite/order/model/OrderInfo.class
+com/bite/order/OrderServiceApplication.class

@@ -1,0 +1,9 @@
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/service/OrderService.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/controller/OrderController.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/config/BeanConfig.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/model/ProductInfo.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/controller/FeignController.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/OrderServiceApplication.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/mapper/OrderMapper.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/model/OrderInfo.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-sentinel/order-service/src/main/java/com/bite/order/api/ProductApi.java
