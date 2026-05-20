@@ -1,0 +1,6 @@
+com/bite/storage/StorageApplication.class
+com/bite/storage/entity/StorageInfo.class
+com/bite/storage/mapper/StorageMapper.class
+com/bite/storage/controller/StorageController.class
+com/bite/storage/service/StorageService.class
+com/bite/storage/service/impl/StorageServiceImpl.class

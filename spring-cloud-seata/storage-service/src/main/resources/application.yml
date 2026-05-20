@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: storage-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/seata_test?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Dd.159178280
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 134.175.107.242:10020
+logging:
+  pattern:
+    dateformat: HH:mm:ss:SSS

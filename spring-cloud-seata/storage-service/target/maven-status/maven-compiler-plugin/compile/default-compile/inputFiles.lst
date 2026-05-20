@@ -1,0 +1,6 @@
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/StorageApplication.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/controller/StorageController.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/entity/StorageInfo.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/mapper/StorageMapper.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/service/StorageService.java
+/Users/lien/GitRepo/Spring-Cloud/spring-cloud-seata/storage-service/src/main/java/com/bite/storage/service/impl/StorageServiceImpl.java
